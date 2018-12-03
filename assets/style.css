@@ -7,14 +7,34 @@ h1, h2 {
     color:#4aaaa5;
     font-family: font-family: 'Georgia', Times, Times New Roman, serif;
 }
+header, .main, .footer{
+    margin:10px;
+}
 header{
     background: #ffffff;
     border:#cccccc;
+    border:2px dotted red;
+}
+h1{
+    margin-left: 400px;
+    display: inline;
+    background:#4aaa;
+   
+}
+.nav {
+    margin-left:1020px;
+}
+nav li {
+    display: inline; 
+    width:20%;
+    margin:10px;
+
 }
 section.main{
 
     background-image: url("img/light-grey-terrazzo.png");
     width: 100%;
+    height: 75%;
     z-index: 1;
     position: absolute;
 }
@@ -24,7 +44,37 @@ section.content{
     border: #dddddd;
     z-index: 3;
     position: relative;
-    padding-left: 400px;
-  
-    
+    margin-left: 400px;
+    margin-top:80px;
+    border:2px solid red; /*for me to see*/
+}
+.content>p {
+    float:right;
+    overflow: auto;
+    border: 2px dotted red;/*for me to see*/
+   
+}
+.footer{
+    border:2px dotted black;
+    height: 30px;
+    margin-top: 600px;
+    position: relative;
+    clear:both;
+}/*css for porfolio*/
+
+.pic2, .pic4{
+   position: relative;
+    overflow: auto;
+    float: left;
+}
+div img {
+    margin-left:20px;
+}/*css for contact*/
+h2, form>p, form>input, form>textarea {
+    margin-left:10px;
+}
+form>.submit{
+    display: block;
+    background: #4aaaa5;
+    color:white;
 }
