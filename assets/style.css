@@ -23,6 +23,8 @@ section.content{
     background: #ffffff;
     border: #dddddd;
     z-index: 3;
+    position: relative;
+    padding-left: 400px;
   
     
 }
