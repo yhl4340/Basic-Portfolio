@@ -13,13 +13,16 @@ header{
 }
 section.main{
 
-    background-image: url("img/light-veneer.png");
+    background-image: url("img/light-grey-terrazzo.png");
     width: 100%;
     z-index: 1;
+    position: absolute;
 }
 section.content{
     width:960px;
     background: #ffffff;
     border: #dddddd;
     z-index: 3;
+  
+    
 }
