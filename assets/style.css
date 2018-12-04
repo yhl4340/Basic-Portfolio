@@ -19,6 +19,7 @@ h1{
     margin-left: 400px;
     display: inline;
     background:#4aaa;
+    padding:51px;
    
 }
 .nav {
@@ -34,7 +35,7 @@ section.main{
 
     background-image: url("img/light-grey-terrazzo.png");
     width: 100%;
-    height: 75%;
+    height: 80%;
     z-index: 1;
     position: absolute;
 }
@@ -45,14 +46,20 @@ section.content{
     z-index: 3;
     position: relative;
     margin-left: 400px;
-    margin-top:80px;
+    margin-top:70px;
+    padding:20px 20px;
     border:2px solid red; /*for me to see*/
 }
 .content>p {
+    position: relative;
     float:right;
     overflow: auto;
     border: 2px dotted red;/*for me to see*/
-   
+}
+.content>article{
+    float:right;
+    border: 2px dotted green;
+    margin-top: -100px;
 }
 .footer{
     border:2px dotted black;
@@ -61,17 +68,42 @@ section.content{
     position: relative;
     clear:both;
 }/*css for porfolio*/
+section.content2{
+    width:40%;
+    background: #ffffff;
+    border: #dddddd;
+    z-index: 3;
+    height: 65%;
+    position: relative;
+    margin-left: 400px;
+    margin-top:70px;
+    padding:20px 20px;
+}
 
-.pic2, .pic4{
-   position: relative;
-    overflow: auto;
+.pic{
+    float:left;
+}
+.pic1 {
+    /*overflow: auto;*/
     float: left;
 }
 div img {
     margin-left:20px;
-}/*css for contact*/
+}
+/*css for contact*/
+section.content1{
+    width:40%;
+    background: #ffffff;
+    border: #dddddd;
+    z-index: 3;
+    position: relative;
+    margin-left: 400px;
+    margin-top:70px;
+    padding:20px 20px;
+}
 h2, form>p, form>input, form>textarea {
     margin-left:10px;
+   margin-top:3px;
 }
 form>.submit{
     display: block;
