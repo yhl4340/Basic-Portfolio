@@ -35,7 +35,7 @@ section.main{
 
     background-image: url("img/light-grey-terrazzo.png");
     width: 100%;
-    height: 80%;
+    height: 75%;
     z-index: 1;
     position: absolute;
 }
@@ -47,7 +47,7 @@ section.content{
     position: relative;
     margin-left: 400px;
     margin-top:70px;
-    padding:20px 20px;
+    padding:10px 20px;
     border:2px solid red; /*for me to see*/
 }
 .content>p {
@@ -69,23 +69,21 @@ section.content{
     clear:both;
 }/*css for porfolio*/
 section.content2{
-    width:40%;
+    width:30%;
     background: #ffffff;
     border: #dddddd;
     z-index: 3;
     height: 65%;
     position: relative;
-    margin-left: 400px;
+    margin-left: 460px;
     margin-top:70px;
     padding:20px 20px;
+    border:2px dotted green;
 }
 
 .pic{
     float:left;
-}
-.pic1 {
-    /*overflow: auto;*/
-    float: left;
+    overflow: auto;
 }
 div img {
     margin-left:20px;
@@ -103,10 +101,18 @@ section.content1{
 }
 h2, form>p, form>input, form>textarea {
     margin-left:10px;
-   margin-top:3px;
+    margin-top:3px;
+    
 }
-form>.submit{
-    display: block;
+form>input{
+    width:100%;
+}
+form>input.submit{
     background: #4aaaa5;
     color:white;
+    width:20%;
+}
+form>textarea{
+    width: 100%;
+    height: 90px;
 }
