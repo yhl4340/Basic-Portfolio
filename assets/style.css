@@ -70,6 +70,10 @@ section.content{
     margin-top: 600px;
     position: relative;
     clear:both;
+    background: #666666;
+    color: white;
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
 }/*css for porfolio*/
 section.content2{
     width:30%;
