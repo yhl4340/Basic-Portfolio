@@ -28,7 +28,6 @@ h1{
 
 nav li {
     display: inline;
-    width:20%;
     margin:10px;
 }
 nav li a:hover{
@@ -37,6 +36,7 @@ nav li a:hover{
 section.main{
 
     background-image: url("img/light-grey-terrazzo.png");
+    
     width: 100%;
     height: 75%;
     z-index: 1;
@@ -54,6 +54,9 @@ section.content{
     border:2px solid red; /*for me to see*/
 }
 .content>p {
+    padding:10px;
+    margin:3px;
+   margin-top:5%;
     position: relative;
     float:right;
     overflow: auto;
@@ -95,6 +98,13 @@ section.content2{
 div img {
     margin-left:20px;
 }
+.pic>a{
+    position: relative;
+    text-align:center;
+    margin-top:30px;
+}
+
+
 
 /*css for contact*/
 section.content1{
