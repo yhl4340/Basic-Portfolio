@@ -13,14 +13,12 @@ header, .main, .footer{
 header{
     background: #ffffff;
     border:#cccccc;
-    border:2px dotted red;
 }
 h1{
     margin-left: 400px;
     display: inline;
     background:#4aaa;
     padding:51px;
-   
 }
 .current{
     margin-left:1020px;
@@ -34,9 +32,7 @@ nav li a:hover{
     color:red;
 }
 section.main{
-
     background-image: url("img/light-grey-terrazzo.png");
-    
     width: 100%;
     height: 75%;
     z-index: 1;
@@ -51,7 +47,6 @@ section.content{
     margin-left: 400px;
     margin-top:70px;
     padding:10px 20px;
-    border:2px solid red; /*for me to see*/
 }
 .content>p {
     padding:10px;
@@ -60,15 +55,12 @@ section.content{
     position: relative;
     float:right;
     overflow: auto;
-    border: 2px dotted red;/*for me to see*/
 }
 .content>article{
     float:right;
-    border: 2px dotted green;
     margin-top: -100px;
 }
 .footer{
-    border:2px dotted black;
     height: 30px;
     margin-top: 600px;
     position: relative;
@@ -77,6 +69,7 @@ section.content{
     color: white;
     text-align: center;
     border-top: 8px solid #4aaaa5;
+
 }/*css for porfolio*/
 section.content2{
     width:30%;
@@ -88,9 +81,7 @@ section.content2{
     margin-left: 460px;
     margin-top:70px;
     padding:20px 20px;
-    border:2px dotted green;
 }
-
 .pic{
     float:left;
     overflow: auto;
@@ -98,13 +89,6 @@ section.content2{
 div img {
     margin-left:20px;
 }
-.pic>a{
-    position: relative;
-    text-align:center;
-    margin-top:30px;
-}
-
-
 
 /*css for contact*/
 section.content1{
@@ -120,7 +104,6 @@ section.content1{
 h2, form>p, form>input, form>textarea {
     margin-left:10px;
     margin-top:3px;
-    
 }
 form>input{
     width:100%;
