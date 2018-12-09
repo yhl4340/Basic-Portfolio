@@ -89,6 +89,21 @@ section.content2{
 div img {
     margin-left:20px;
 }
+.img{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    float:left;
+    overflow: clear;
+}
+a.caption{
+    position: absolute;
+    background: orange;
+    margin-top:50px;
+    margin-left:-119px;
+    width:50%;
+   
+}
 
 /*css for contact*/
 section.content1{
